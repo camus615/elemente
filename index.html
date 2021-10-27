@@ -8,15 +8,17 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<!--Blockelemente bewirken Zeilenumbrüche, wird über die CSS-Eigenschaft "display: block" gesteuert, machen sich über die gesamte Zeile breit, akzeptieren weite und höhe - Alternative:Inline-Elemente, machen sich so breit wie sie müssen "display:inline" ist der Befehl, akzeptiert heie breite, höhe, margin / ein hybrid = inline-Blockelement, akzeptier breite, höhe, margin-->
 	<div>
 		Ich bin ein Block Element.
 	</div>
 	<p>ich bin auch ein Block Element</p>
 	<img src="https://via.placeholder.com/150" alt="Ich bin ein Inline Block Element">
-	<span>Ich bin ein Inline Element.</span>
+	<!--"span ist der kleibne Bruder von "div" als inline-Element"-->
+	<span>Ich bin ein Inline Element.</span> <!--ein Zierelement, bedeutet nichts-->
 	<a href="#">Ich bin auch ein Inline Element</a>
 
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut a liquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p><span>L</span> orem <b>ipsum</b> <!--visuelle Hervorhebung ohne weitere Bedeutung--> dolor sit <strong>amet</strong> <!--bedeutung: besondere, starke Betonung und Bedeutung im Text (bspw. für Blinde beim vorlesen)-->, consectetur adipisicing <i>elit</i> <!--kursiv, visuelle Hervorhebung-->, sed do eiusmod <em>tempor</em> <!--empersize, besondere Betonung--> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud <span>exercitation</span> ullamco laboris nisi ut a liquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 </body>
 </html>

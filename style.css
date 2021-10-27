@@ -1,1 +1,31 @@
+* {box-sizing: border-box;}
 
+div{
+    background-color: blue;
+    /*= display:block;*/
+    width: 300px;
+}
+
+p{
+    background-color: burlywood;
+    /*= display: block;*/
+    width: 600px;
+}
+
+a{
+    background-color: yellow;
+    color: darkgreen;
+    /*display: inline;*/
+}
+
+img {
+    display: block;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: darkgreen;
+    display: inline;
+    font-size: 32px;
+}
